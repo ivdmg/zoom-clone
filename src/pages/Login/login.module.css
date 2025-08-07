@@ -1,0 +1,84 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: #f0f2f5;
+}
+
+.card {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.row {
+  min-height: 450px;
+}
+
+.left {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border-right: 1px solid #f0f0f0;
+}
+
+.animationWrapper {
+  text-align: center;
+}
+
+
+.animation {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  background: #ffffff;
+  row-gap: 8px;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+
+.space {
+  width: 100%;
+}
+
+.logoSmall {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.connectHighlight {
+  color: #1677ff;
+  display: inline;
+  font-size: 25px; 
+  font-weight: 700;
+}
+
+.button {
+  margin-top: 8px;
+}

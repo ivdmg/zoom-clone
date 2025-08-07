@@ -1,0 +1,5 @@
+.copy-icon:hover {
+  color: #1890ff !important;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}

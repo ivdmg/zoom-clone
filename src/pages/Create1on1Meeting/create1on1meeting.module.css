@@ -1,0 +1,37 @@
+.container {
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+
+.formCard {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #1890ff;
+}
+
+.formItem {
+  margin-bottom: 24px;
+}
+
+.buttonGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.resetButton {
+  min-width: 120px;
+}
+
+.submitButton {
+  min-width: 120px;
+} 

@@ -1,0 +1,16 @@
+.copy-icon {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 4px;
+  transition: color 0.3s ease, transform 0.2s ease;
+  color: #555;
+}
+
+.copy-icon:hover {
+  color: #1890ff;
+  transform: scale(1.1);
+}
+.copy-icon:active {
+  transition: color 0s ease;
+  color: #fc2205;
+}

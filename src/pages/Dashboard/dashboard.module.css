@@ -1,0 +1,27 @@
+.dashboardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+}
+.cardWrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.card {
+  border: 2px solid rgba(235, 235, 235, 0.842);
+  background-color: rgb(252, 252, 252);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  border: 2px solid rgb(235, 235, 235);
+  background-color: rgb(252, 252, 252);
+   transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.cardMeetings {
+    width: 40%;
+}

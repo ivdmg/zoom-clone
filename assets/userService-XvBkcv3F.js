@@ -1,0 +1,1 @@
+import{c as a,f as t,g as n}from"./index-CuF6V2JG.js";const u=async()=>{try{console.log("Fetching all users from database");const s=a(t,"users"),o=(await n(s)).docs.map(r=>{const e=r.data();return{uid:e.uid,name:e.name||"Unknown User",email:e.email||""}});return console.log("Found users:",o),o}catch(s){throw console.error("Error fetching users:",s),s}};export{u as getAllUsers};
